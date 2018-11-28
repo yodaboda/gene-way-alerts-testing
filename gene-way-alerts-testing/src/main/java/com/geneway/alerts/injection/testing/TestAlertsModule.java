@@ -16,7 +16,7 @@ import com.icegreen.greenmail.util.ServerSetupTest;
  *
  */
 public class TestAlertsModule extends AbstractModule {
-	public final GreenMail mailServer = new GreenMail(ServerSetupTest.SMTP);
+	public static final GreenMail MAIL_SERVER = new GreenMail(ServerSetupTest.SMTP);
 	public static final String LOCALHOST = "127.0.0.1";
 
 	@Provides
