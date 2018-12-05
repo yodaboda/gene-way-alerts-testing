@@ -8,6 +8,7 @@ import com.google.inject.Provides;
 import com.icegreen.greenmail.util.GreenMail;
 import com.icegreen.greenmail.util.ServerSetupTest;
 
+
 /**
  * A testing helper for the alerts module. To override the {@code AlertsModule}
  * behavior use:
