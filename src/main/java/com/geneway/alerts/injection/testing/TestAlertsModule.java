@@ -20,6 +20,7 @@ public class TestAlertsModule extends AbstractModule {
 	public static final GreenMail MAIL_SERVER = new GreenMail(ServerSetupTest.SMTP);
 	public static final String LOCALHOST = "127.0.0.1";
 
+	
 	@Provides
 	protected Properties provideProperties() {
 		Properties properties = new Properties();
@@ -29,6 +30,7 @@ public class TestAlertsModule extends AbstractModule {
 		return properties;
 	}
 
+	
 	@Override
 	protected void configure() {
 		//Binding provided through provides methods
