@@ -14,19 +14,17 @@ import com.icegreen.greenmail.util.ServerSetupTest;
 
 public class TestAlertsModuleTest {
 
-	@Inject
-	Properties properties;
-	
-	@Before
-	public void setUp() {
-		Guice.createInjector(new TestAlertsModule()).injectMembers(this);
-	}
-	
-	@Test
-	public void testProvideProperties() {
-		assertEquals(ServerSetupTest.SMTP.getPort(), properties.get("mail.smtp.port"));
-		assertEquals("true", properties.get("mail.smtp.auth"));
-		assertEquals(TestAlertsModule.LOCALHOST, properties.get("mail.smtp.host"));
-	}
+  @Inject Properties properties;
 
+  @Before
+  public void setUp() {
+    Guice.createInjector(new TestAlertsModule()).injectMembers(this);
+  }
+
+  @Test
+  public void testProvideProperties() {
+    assertEquals(ServerSetupTest.SMTP.getPort(), properties.get("mail.smtp.port"));
+    assertEquals("true", properties.get("mail.smtp.auth"));
+    assertEquals(TestAlertsModule.LOCALHOST, properties.get("mail.smtp.host"));
+  }
 }
