@@ -8,10 +8,13 @@ import javax.inject.Inject;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 
 import com.google.inject.Guice;
 import com.icegreen.greenmail.util.ServerSetupTest;
+import com.nutrinfomics.geneway.shared.testcategory.FastTest;
 
+@Category(value = {FastTest.class})
 public class TestAlertsModuleTest {
 
   @Inject Properties properties;
