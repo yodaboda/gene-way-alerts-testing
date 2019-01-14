@@ -8,7 +8,7 @@ Gene-Way Alerts Testing Module
 Is a Guice-module used to facilitate the testing of the Gene-Way-Alerts module.
 
 ## Contributors
-The code has been writen by Firas Swidan, PhD.
+The code has been written by Firas Swidan, PhD.
 
 ## License
 The code of the Gene-Way-Alerts-Testing project is distributed under the Apache 2 License.
