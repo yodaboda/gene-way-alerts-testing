@@ -11,7 +11,7 @@ apply plugin: 'java-library'
 
 buildscript { repositories { mavenCentral() }} // needed for google-java-format
 
-apply from: '../gene-way-shared/config.gradle'
+apply from: "https://raw.githubusercontent.com/yodaboda/gene-way-shared/master/config.gradle"
 
 
 dependencies {
