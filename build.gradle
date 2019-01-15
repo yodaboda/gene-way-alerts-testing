@@ -24,5 +24,7 @@ dependencies {
 
     // Use JUnit  test framework
     testImplementation 'junit:junit:4.12'
-    testImplementation fileTree(dir: '../gene-way-shared/build/libs', include: ['*.jar'])
+    testImplementation 'com.gene-play.shared:gene-play-shared:0.4.7'
+    
+    //testImplementation fileTree(dir: '../gene-way-shared/build/libs', include: ['*.jar'])
 }
