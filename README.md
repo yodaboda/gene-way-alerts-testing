@@ -8,6 +8,17 @@ Gene-Way Alerts Testing Module
 ## Gene-Way-Alerts-Testing 
 Is a Guice-module used to facilitate the testing of the Gene-Way-Alerts module.
 
+## Getting the Package
+The latest release of the artifact is available on Maven Central, and can be installed using the following Maven dependency:
+
+```xml
+<dependency>
+  <groupId>com.gene-play</groupId>
+  <artifactId>gene-way-alerts-testing</artifactId>
+  <version>0.4.7</version>
+</dependency>
+```
+
 ## Contributors
 The code has been written by Firas Swidan, PhD.
 
