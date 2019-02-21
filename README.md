@@ -2,7 +2,7 @@ Gene-Way Alerts Testing Module
 ======
 [![Build Status](https://travis-ci.com/yodaboda/gene-way-alerts-testing.svg?token=sWQepzpWF3gMsecSGq7U&branch=master)](https://travis-ci.com/yodaboda/gene-way-alerts-testing)
 ![license](https://img.shields.io/github/license/yodaboda/gene-way-alerts-testing.svg)
-      
+[![Maven Central](https://img.shields.io/maven-central/v/com.gene-play/gene-way-alerts-testing.svg)](https://mvnrepository.com/artifact/com.gene-play/gene-way-alerts-testing)       
 **Gene-Way-App** is an MVP project for tracking snacks consumptions. It uses a Server-Client architecture for providing an interactive mobile front-end that can communicate with the backend-server.
 
 ## Gene-Way-Alerts-Testing 
